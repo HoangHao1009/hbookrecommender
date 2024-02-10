@@ -785,15 +785,13 @@ bookresource = BookResource(
 )
 bookresource.wv, bookresource.simi_df = BookResource.get_wv(
     prepare = True,
-    _wv_file_path = 'C:/Users/admin/Documents/Me/book_recommender/data/wv.pickle',
-    _simi_file_path = 'C:/Users/admin/Documents/Me/book_recommender/data/simi_df.csv'
+    _wv_file_path = 'data/wv.pickle',
+    _simi_file_path = 'data/simi_df.csv'
 )
-
 
 page_config = Style(
-    'C:/Users/admin/Documents/Me/book_recommender/webapp_2/pagestyle.css',
+    'pagestyle.css',
 )
-
 
 header = Header('BOOK RECOMMENDER')
 header.set_head_page()
