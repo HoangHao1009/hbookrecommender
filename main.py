@@ -780,8 +780,8 @@ st.set_page_config(
 )
 
 bookresource = BookResource(
-    'https://drive.google.com/file/d/1fc9JI6nTzOOa1XNwktONFcSARqL71rOH/view?usp=sharing',
-    'https://drive.google.com/file/d/1gOSC8hEnmsXQ6A0Gp-W-mG-JK39Mpguz/view?usp=sharing',
+    'https://drive.google.com/file/d/1i-pIxkYHWA8b9q7Ka8Hq0JF_lWzYaWo9/view?usp=drive_link',
+    'https://drive.google.com/file/d/1hg_eL1Nr56ewj5HTkUM6HdI0zwAxpIPZ/view?usp=drive_link',
 )
 bookresource.wv, bookresource.simi_df = BookResource.get_wv(
     prepare = True,
@@ -841,7 +841,7 @@ popup = Popup(
 popup.run()
 
 footer = Footer(
-    'https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/300214291_923781189013440_1485100982149543062_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHP3OcZTMPNG0ZTR2SiwpURJWpGnT32TTIlakadPfZNMgWTvhMvJdKH8CBvQJ5VgiRu1qOUf6Ym7lhadFEwEtom&_nc_ohc=9qJ91-N9oKkAX-3EoqY&_nc_ht=scontent.fhan3-4.fna&oh=00_AfAs4ZdQnAAaP2l4Rxfl8I4h2EmWGSVL27XNpdIlhKUp4g&oe=65C7C2C2',
+    'https://mktanalyze.streamlit.app/~/+/media/b6bb4890d768e9fb804d913be03e6b1fb5b5d7c435f5a038df83d9ee.jpg',
     'https://www.linkedin.com/in/hahoanghao1009/',
     'https://github.com/HoangHao1009/',
     'https://www.facebook.com/hoanghao1009/'
