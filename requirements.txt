@@ -9,3 +9,4 @@ pyvi==0.1.1
 scikit-learn
 gdown==5.0.0
 category_encoders==2.6.3
+spicy==1.12.0
