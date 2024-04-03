@@ -4,7 +4,7 @@ streamlit_modal
 streamlit_lottie
 plotly==5.9.0
 gensim==4.3.2
-spacy==3.6.0
+spacy==3.7.4
 pyvi==0.1.1
 scikit-learn
 gdown==5.0.0
